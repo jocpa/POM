@@ -3,4 +3,8 @@ describe('Web Bank Security Test', () => {
    
     const url = 'http://zero.webappsecurity.com/'
 
+    it('smoke test', () => {
+        cy.visit(url)
+    })
+
 })
