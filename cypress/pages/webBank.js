@@ -8,7 +8,7 @@ class webBank {
         passwordInput: () => cy.get('#user_password'),
         signBtn: () => cy.get('.btn'),
         transferFounds: () => cy.get('#transfer_funds_tab > a'),
-        fromAccount: () => cy.get('#transfer_funds_tab > a'),
+        fromAccount: () => cy.get('#tf_fromAccountId'),
         toAccount: () => cy.get('#tf_toAccountId'),
         amount: () => cy.get('#tf_amount'),
         description: () => cy.get('#tf_description'),
