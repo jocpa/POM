@@ -52,3 +52,4 @@ class webBank {
     }
 
 }
+module.exports = new webBank()
