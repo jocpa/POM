@@ -26,6 +26,8 @@ describe('Web Bank Security Test', () => {
         webBank.sendDescription('description')
         webBank.continueBtnClick()
         webBank.submitBtnClick()
+
+        webBank.elements.succesAlert().should('have.class', 'alert-success')
     })
 
 })
