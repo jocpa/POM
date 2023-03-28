@@ -17,7 +17,38 @@ class webBank {
         succesAlert: () => cy.get('.alert')
     }
   
-    
-    
+    clickSigninBtn() {
+        this.elements.signinBtn().click()
+    }
+    inputUsername(user) {
+        this.elements.loginUsername().type(user)
+    }
+    inputPassword(password) {
+        this.elements.passwordInput().type(password)
+    }
+    clickSignBtn() {
+        this.elements.signBtn().click()
+    }
+    transferFoundsClick() {
+        this.elements.transferFounds().click()
+    }
+    selectFromAccount(fr) {
+        this.elements.fromAccount().select(fr)
+    }
+    selectToAccount(to) {
+        this.elements.toAccount().select(to)
+    }
+    totalAmount(am) {
+        this.elements.amount().type(am)
+    }
+    sendDescription(desc) {
+        this.elements.description().type(desc)
+    }
+    continueBtnClick() {
+        this.elements.continueBtn().click()
+    }
+    submitBtnClick() {
+        this.elements.submitBtn().click()
+    }
 
 }
