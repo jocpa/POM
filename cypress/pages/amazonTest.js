@@ -9,4 +9,17 @@ class amazonTest {
         addedAlert: () => cy.get('#attachDisplayAddBaseAlert > .a-box-inner > .a-alert-heading')
     }
 
+    typeSearchBar(element) {
+        this.elements.searchBar().type(element)
+    }
+    clickNextPage() {
+        this.elements.nextPage().click()
+    }
+    clickThirdElement() {
+        this.elements.thirdElement().click()
+    }
+    clickAddToCart() {
+        this.elements.thirdElement().click()
+    }
+
 }
