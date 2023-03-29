@@ -23,3 +23,4 @@ class amazonTest {
     }
 
 }
+module.exports = new amazonTest();
