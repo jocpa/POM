@@ -21,8 +21,6 @@ describe('Login implementation', () => {
     inventoryPage.elements.imgBanner().should('exist')
     inventoryPage.elements.timeText().invoke('text')
                                      .should('equal', 'Time at Work');
-    
-
   })
     
 })
