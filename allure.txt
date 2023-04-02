@@ -1,0 +1,1 @@
+npm install -g allure-commandline --save-dev
