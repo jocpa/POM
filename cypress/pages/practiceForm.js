@@ -37,7 +37,7 @@ class practiceForm {
         this.elements.dayButton().click()
     }
     travelCountry(op) {
-        this.elements.travelSelect().type(op)
+        this.elements.travelSelect().select(op)
     }
     experience() {
         this.elements.experienceButton().click()
